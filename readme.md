@@ -2,7 +2,10 @@
 
 **When you remove duplicates in a collection** mapped by keys, you may want to **keep track of old keys** and their new equivalent.
 
-[![dependency status](https://img.shields.io/david/derhuerst/key-map.svg)](https://david-dm.org/derhuerst/key-map#info=dependencies)
+[![npm version](https://img.shields.io/npm/v/key-map.svg)](https://www.npmjs.com/package/key-map)
+[![build status](https://img.shields.io/travis/derhuerst/key-map.svg)](https://travis-ci.org/derhuerst/key-map)
+[![dependency status](https://img.shields.io/david/derhuerst/key-map.svg)](https://david-dm.org/derhuerst/key-map)
+[![dev dependency status](https://img.shields.io/david/dev/derhuerst/key-map.svg)](https://david-dm.org/derhuerst/key-map#info=devDependencies)
 ![ISC-licensed](https://img.shields.io/github/license/derhuerst/key-map.svg)
 
 
