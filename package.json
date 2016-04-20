@@ -1,0 +1,12 @@
+{
+	"name":        "key-map",
+	"description": "Keep track of old keys when removing duplicates.",
+	"version":     "0.1.0",
+	"main":        "index.js",
+	"files":       ["index.js"],
+	"keywords":    ["key", "id", "map", "track", "unique", "duplicate"],
+	"author":      "Jannis R <mail@jannisr.de>",
+	"homepage":    "https://github.com/derhuerst/key-map",
+	"repository":  "git://github.com/derhuerst/key-map.git",
+	"license":     "ISC"
+}
