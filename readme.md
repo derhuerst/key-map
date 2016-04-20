@@ -17,7 +17,7 @@ npm install key-map
 
 ```js
 const keyMap = require('key-map')
-const m = keyMap.with(['a', 'b', 'c'])
+const m = keyMap(['a', 'b', 'c'])
 
 m.get('a') // -> 'a'
 m.get('b') // -> 'b'
