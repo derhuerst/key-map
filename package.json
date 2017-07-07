@@ -13,11 +13,13 @@
 		"node": ">=6"
 	},
 	"devDependencies": {
+		"benchmark": "^2.1.4",
 		"tape":    "^4.5.1",
 		"tap-min": "^1.2.1"
 	},
 	"scripts": {
 		"test":          "tape test.js | tap-min",
-		"prepublish":    "npm test"
+		"prepublish":    "npm test",
+		"benchmark": "node benchmark.js"
 	}
 }
