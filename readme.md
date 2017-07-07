@@ -7,6 +7,7 @@
 [![dependency status](https://img.shields.io/david/derhuerst/key-map.svg)](https://david-dm.org/derhuerst/key-map)
 [![dev dependency status](https://img.shields.io/david/dev/derhuerst/key-map.svg)](https://david-dm.org/derhuerst/key-map#info=devDependencies)
 ![ISC-licensed](https://img.shields.io/github/license/derhuerst/key-map.svg)
+[![chat on gitter](https://badges.gitter.im/derhuerst.svg)](https://gitter.im/derhuerst)
 
 
 ## Installing

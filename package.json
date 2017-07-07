@@ -1,7 +1,7 @@
 {
 	"name":        "key-map",
 	"description": "Keep track of old keys when removing duplicates.",
-	"version":     "0.1.0",
+	"version":     "1.0.0",
 	"main":        "index.js",
 	"files":       ["index.js"],
 	"keywords":    ["key", "id", "map", "track", "unique", "duplicate"],
@@ -9,9 +9,12 @@
 	"homepage":    "https://github.com/derhuerst/key-map",
 	"repository":  "git://github.com/derhuerst/key-map.git",
 	"license":     "ISC",
+	"engines": {
+		"node": ">=6"
+	},
 	"devDependencies": {
 		"tape":    "^4.5.1",
-		"tap-min": "^1.1"
+		"tap-min": "^1.2.1"
 	},
 	"scripts": {
 		"test":          "tape test.js | tap-min",
