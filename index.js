@@ -16,7 +16,16 @@ const keyMap = (keys) => {
 		return key
 	}
 
-	return {map, get}
+	const toObject = () => {
+		const obj = Object.create(null)
+		for (let before in data) {
+			const after = get(before)
+			obj[before] = after
+		}
+		return obj
+	}
+
+	return {map, get, toObject}
 }
 
 module.exports = keyMap
